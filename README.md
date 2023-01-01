@@ -22,7 +22,7 @@ Article: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6347576/
 
 <img src="https://user-images.githubusercontent.com/75282197/210181874-d9226198-a911-428c-9a6c-f05ec2a3cb7b.png" alt="pic1" width="600"/>
 
-[^1]: This picture shows the first 20 rows of data I used
+> This picture shows the first 20 rows of data I used
 
 2. Next, I imported the data into Matlab. I wanted the see what the data looked like before I decided to remove any values. After looking at how the Regression Learner worked, I realized I had too many variables. I decided to use the changing population size to predict the number of grocery stores per 1,000 people. I used the Regression Learner and set the population from 2010-2016 as the predictor and the number of grocery stores per 1,000 people in 2014 as the response variable.
 
