@@ -30,16 +30,16 @@ Article: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6347576/
 
 3. Looking at the above model, I noticed that many values were outliers. I decided to remove outliers. I used the code:
 
-<img src="https://user-images.githubusercontent.com/75282197/210181932-e431751c-3b56-47dd-95ac-606d8ca126fd.png" alt="image" width="600"/>
+<img src="https://user-images.githubusercontent.com/75282197/210181932-e431751c-3b56-47dd-95ac-606d8ca126fd.png" alt="image" width="400"/>
 
 After removing the outliers, I put the new data into the Regression Learner.
 
-<img src="https://user-images.githubusercontent.com/75282197/210181936-d60655b7-cbbd-4227-b3f9-16c95cd22d21.png" alt="image" width="800"/>
+<img src="https://user-images.githubusercontent.com/75282197/210181936-d60655b7-cbbd-4227-b3f9-16c95cd22d21.png" alt="image" width="600"/>
 
 
 4. I then decided to remove any values that were 0 and any values they were blank. I used the code:
 
-<img src="https://user-images.githubusercontent.com/75282197/210181940-1b6e689d-a1b8-4f1b-8d70-dc3221437bec.png" alt="image" width="600"/>
+<img src="https://user-images.githubusercontent.com/75282197/210181940-1b6e689d-a1b8-4f1b-8d70-dc3221437bec.png" alt="image" width="400"/>
 
 After removing any zeros or blank values, I put the new data into the Regression Learner.
 
