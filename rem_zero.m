@@ -1,0 +1,14 @@
+function ntest=rem_zero(test)
+test=test(~any(ismissing(test),2),:)
+test(~test.CensusPopulation,:)=[];
+test(~test.PopulationEstimate2011,:)=[];
+test(~test.PopulationEstimate2012,:)=[];
+test(~test.PopulationEstimate2013,:)=[];
+test(~test.PopulationEstimate2014,:)=[];
+test(~test.PopulationEstimate2015,:)=[];
+test(~test.PopulationEstimate2016,:)=[];
+test(~test.LACCESS_POP10,:)=[];
+test(~test.LACCESS_POP15,:)=[];
+test(~test.GROCPTH09,:)=[];
+test(~test.GROCPTH14,:)=[];
+ntest=test
