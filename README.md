@@ -20,16 +20,16 @@ Article: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6347576/
 
 1. The source I got the data from had divided the data I wanted to analyze into two separate spreadsheets. I determined that the information I wanted to analyze was the population from 2010-2016, the number of people who had low access to stores, and the number of grocery stores per 1,000 people. I combined all of the information into one spreadsheet and saved it.
 
-<img src="https://user-images.githubusercontent.com/75282197/210181874-d9226198-a911-428c-9a6c-f05ec2a3cb7b.png" alt="pic1" width="800"/>
+<img src="https://user-images.githubusercontent.com/75282197/210181874-d9226198-a911-428c-9a6c-f05ec2a3cb7b.png" alt="pic1" width="600"/>
 This picture shows the first 20 rows of data I used
 
 2. Next, I imported the data into Matlab. I wanted the see what the data looked like before I decided to remove any values. After looking at how the Regression Learner worked, I realized I had too many variables. I decided to use the changing population size to predict the number of grocery stores per 1,000 people. I used the Regression Learner and set the population from 2010-2016 as the predictor and the number of grocery stores per 1,000 people in 2014 as the response variable.
 
-<img src="https://user-images.githubusercontent.com/75282197/210181964-174d32d3-70ce-41f5-bb2c-97c9c189233b.png" alt="image" width="800"/>
+<img src="https://user-images.githubusercontent.com/75282197/210181964-174d32d3-70ce-41f5-bb2c-97c9c189233b.png" alt="image" width="600"/>
 
 3. Looking at the above model, I noticed that many values were outliers. I decided to remove outliers. I used the code:
 
-<img src="https://user-images.githubusercontent.com/75282197/210181932-e431751c-3b56-47dd-95ac-606d8ca126fd.png" alt="image" width="800"/>
+<img src="https://user-images.githubusercontent.com/75282197/210181932-e431751c-3b56-47dd-95ac-606d8ca126fd.png" alt="image" width="600"/>
 
 After removing the outliers, I put the new data into the Regression Learner.
 
@@ -38,11 +38,11 @@ After removing the outliers, I put the new data into the Regression Learner.
 
 4. I then decided to remove any values that were 0 and any values they were blank. I used the code:
 
-<img src="https://user-images.githubusercontent.com/75282197/210181940-1b6e689d-a1b8-4f1b-8d70-dc3221437bec.png" alt="image" width="800"/>
+<img src="https://user-images.githubusercontent.com/75282197/210181940-1b6e689d-a1b8-4f1b-8d70-dc3221437bec.png" alt="image" width="600"/>
 
 After removing any zeros or blank values, I put the new data into the Regression Learner.
 
-<img src="https://user-images.githubusercontent.com/75282197/210181945-d3ecd2cd-c1e8-47cb-8288-3b71134800ac.png" alt="image" width="800"/>
+<img src="https://user-images.githubusercontent.com/75282197/210181945-d3ecd2cd-c1e8-47cb-8288-3b71134800ac.png" alt="image" width="600"/>
 
 
 **Conclusion**
