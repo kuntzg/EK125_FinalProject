@@ -20,7 +20,7 @@ Article: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6347576/
 
 1. The source I got the data from had divided the data I wanted to analyze into two separate spreadsheets. I determined that the information I wanted to analyze was the population from 2010-2016, the number of people who had low access to stores, and the number of grocery stores per 1,000 people. I combined all of the information into one spreadsheet and saved it.
 
-<img src="https://user-images.githubusercontent.com/75282197/210182374-1b09a0ec-c85b-481b-b669-e8cdfb48199f.png" alt="image" width="600"/>
+<img src="https://user-images.githubusercontent.com/75282197/210182374-1b09a0ec-c85b-481b-b669-e8cdfb48199f.png" alt="image" width="800"/>
 
 > This picture shows the first 20 rows of data I used
 
