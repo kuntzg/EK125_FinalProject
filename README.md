@@ -29,6 +29,7 @@ This picture shows the first 20 rows of data I used
 ![image](https://user-images.githubusercontent.com/75282197/210181964-174d32d3-70ce-41f5-bb2c-97c9c189233b.png)
 
 3. Looking at the above model, I noticed that many values were outliers. I decided to remove outliers. I used the code:
+
 ![image](https://user-images.githubusercontent.com/75282197/210181932-e431751c-3b56-47dd-95ac-606d8ca126fd.png)
 
 After removing the outliers, I put the new data into the Regression Learner.
