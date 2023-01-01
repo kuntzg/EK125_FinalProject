@@ -29,18 +29,18 @@ This picture shows the first 20 rows of data I used
 ![](RackMultipart20230101-1-3xn2lp_html_54e1dc999a95ee16.png)
 
 3. Looking at the above model, I noticed that many values were outliers. I decided to remove outliers. I used the code:
-![image](https://user-images.githubusercontent.com/75282197/210181889-2269b896-41d8-49e2-a02b-71c748170d60.png)
+![image](https://user-images.githubusercontent.com/75282197/210181932-e431751c-3b56-47dd-95ac-606d8ca126fd.png)
 
 After removing the outliers, I put the new data into the Regression Learner.
-![image](https://user-images.githubusercontent.com/75282197/210181891-fdfe389a-1e69-4c60-baff-c2124a5ac4a1.png)
+![image](https://user-images.githubusercontent.com/75282197/210181936-d60655b7-cbbd-4227-b3f9-16c95cd22d21.png)
+
 
 4. I then decided to remove any values that were 0 and any values they were blank. I used the code:
-
-![](RackMultipart20230101-1-3xn2lp_html_127e3344be0c0623.png)
+![image](https://user-images.githubusercontent.com/75282197/210181940-1b6e689d-a1b8-4f1b-8d70-dc3221437bec.png)
 
 After removing any zeros or blank values, I put the new data into the Regression Learner.
+![image](https://user-images.githubusercontent.com/75282197/210181945-d3ecd2cd-c1e8-47cb-8288-3b71134800ac.png)
 
-![](RackMultipart20230101-1-3xn2lp_html_6546e231ea0ba933.png)
 
 Conclusion
 
