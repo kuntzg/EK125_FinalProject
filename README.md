@@ -25,13 +25,14 @@ Article: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6347576/
 
 > 2. Next, I imported the data into Matlab. I wanted the see what the data looked like before I decided to remove any values. After looking at how the Regression Learner worked, I realized I had too many variables. I decided to use the changing population size to predict the number of grocery stores per 1,000 people. I used the Regression Learner and set the population from 2010-2016 as the predictor and the number of grocery stores per 1,000 people in 2014 as the response variable.
 
-![image](https://user-images.githubusercontent.com/75282197/210181964-174d32d3-70ce-41f5-bb2c-97c9c189233b.png)
+<img src="https://user-images.githubusercontent.com/75282197/210181964-174d32d3-70ce-41f5-bb2c-97c9c189233b.png" alt="image" width="200"/>
 
 > 3. Looking at the above model, I noticed that many values were outliers. I decided to remove outliers. I used the code:
 
 ![image](https://user-images.githubusercontent.com/75282197/210181932-e431751c-3b56-47dd-95ac-606d8ca126fd.png)
 
 After removing the outliers, I put the new data into the Regression Learner.
+
 ![image](https://user-images.githubusercontent.com/75282197/210181936-d60655b7-cbbd-4227-b3f9-16c95cd22d21.png)
 
 
