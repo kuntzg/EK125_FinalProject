@@ -37,6 +37,7 @@ After removing the outliers, I put the new data into the Regression Learner.
 
 
 4. I then decided to remove any values that were 0 and any values they were blank. I used the code:
+
 ![image](https://user-images.githubusercontent.com/75282197/210181940-1b6e689d-a1b8-4f1b-8d70-dc3221437bec.png)
 
 After removing any zeros or blank values, I put the new data into the Regression Learner.
